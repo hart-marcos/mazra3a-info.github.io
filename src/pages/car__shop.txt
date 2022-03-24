@@ -1,0 +1,17 @@
+<br> <br>
+<div class="topnav"> <a onclick="get_items_car('trees')" id="trees" class=""><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/apple_tree.png" alt="" class="img"> الاشجار</a> <a onclick="get_items_car('animals')" id="animals" class=""><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/HolsteinCow.png" alt="" class="img"> حيوانات</a> <a onclick="get_items_car('gear')" id="gear" class=""> <img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/cheese_machine.png" alt="" class="img"> الالات</a> <a onclick="get_items_car('buildings')" id="buildings" class=""><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/storehouse.png" alt="" class="img"> الابنية</a> <a onclick="get_items_car('decorations')" id="decorations" class=""><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/hay_bale.png" alt="" class="img"> ديكورات</a> <a onclick="get_items_car('materials')" id="materials" class=""><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/screw.png" alt="" class="img"> مواد </a> </div>
+<br>
+<div class="topnav"> <a class="active" onclick="get_st_car('r')" id="ae"> عربي </a> <a onclick="get_st_car('m')" id="en"> انجليزي </a> <a onclick="get_st_car('f')" id="fr"> فرنسي </a> </div>
+<div class="icon-bar"> <a href="https://www.facebook.com/groups/family.farm.world1/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> <a href="#" class="google"><i class="fa fa-google"></i></a> <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> </div>
+<div class="content" style="text-align:center;">
+    <div class="search">
+        <input type="text" value="ابحث" onkeyup="search_car(this.value)" onclick="this.value=''" />
+    </div>
+    <hr style="width: 400px; margin-top: 20px;">
+    <div class="section_car">
+        <div id="car_shop" style="margin-top:74px;margin-right:23px">
+            <h2 class="txt"> اختر القسم الذي تريده </h2>
+        </div>
+    </div>
+    <div id="pages" style="margin-bottom: 15px;margin-top:0px" class="pages"> </div>
+</div>

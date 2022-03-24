@@ -1,0 +1,17 @@
+<br>
+<br>
+<div class="topnav">
+    <a onclick="get_can_send('trees')" id="trees"><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/apple_tree.png" alt="" class="img" />  الاشجار</a>
+    <a onclick="get_can_send('animals')" id="animals"><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/HolsteinCow.png" alt="" class="img" /> حيوانات</a>
+    <a onclick="get_can_send('decorations')" id="decorations"><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/hay_bale.png" alt="" class="img" /> ديكورات</a>
+    <a onclick="get_can_send('other')" id="decorations"><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/ItalianDecorationPackage.png" alt="" class="img" /> اخرى </a>
+</div>
+<br><br>
+<div class="content">
+    <hr>
+    <div id="demo">
+        <h2 class="txt">  اختر القسم الذي تريده       </h2>
+    </div>
+    <div id="pages" class="pages">
+    </div>
+</div>

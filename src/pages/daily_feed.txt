@@ -1,0 +1,22 @@
+ <div class="form">
+    <div class="img_">
+        <img src="Images/daily_feed.png" alt="">
+    </div>
+    <div class="input">
+        <h1> التفويل اليومي  </h1>
+        <h3> ادخل ال signed_request : </h3>
+        <input type="text" value="" id="sr_" onclick="this.value = ''" class="input_"/>
+        <br>
+        <select id="gaz" name="type" class="input_2">
+            <option value="true"> مع البنزين</option>
+            <option value="false">بدون بنزين </option>
+        </select>
+
+        <select id="version_" name="type" class="input_2">
+            <option value="us"> Family Farm</option>
+            <option value="th"> Happy Land</option>
+            <option value="fr"> Super Ferme</option>
+        </select>
+        <input id="b_send" type="button" value=" ارســـال " class="send_" onclick="feed_daily(0)">
+    </div>
+</div>

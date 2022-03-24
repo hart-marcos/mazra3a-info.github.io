@@ -1,0 +1,44 @@
+<div class="form">
+            <div class="img_" style="right: 0%;margin-top: -40px;">
+                <img src="Images/links_maker.png" alt="" >
+            </div>
+            <div class="input2">
+                    <h1 style="margin-top: -10px;margin-bottom: 20px;"> صانع الروابط </h1>
+                    <img style="margin-bottom: -10px;" class="img" src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/Gasoline1.png" id="link_img">
+                <div class="send_s" style="margin-top: 0px;">
+                    <br>
+                    <h3> ادخل ال signed_request : </h3>
+                    <input type="text" name="name" onclick="this.value = ''" class="input_" id="sr">
+                    
+                    <br>
+                    
+                    <select id="version" name="type" class="input_2">
+                        <option value="us">فاملي</option>
+                        <option value="th">هابي</option>
+                        <option value="fr">سوبر</option>
+                    </select>
+                    
+                    
+                    <select id="type" name="type" class="input_2" onchange="link_img(this)">
+                        <option id="Gasoline1"; value="dF9nZXRfZmFybWNsdWJfZmluYWxfcmV3YXJk">بنزين</option>
+                        <option id="fertilizer"; value="dF9nZXRfUmVmaW5lcnlfZ2Fz">سماد عادي * 25</option>
+                        <option id="superkettle"; value="dF9nZXRfbWluZV9nb2xkZW5DaGVzdA==">دلو خارق </option>
+                        <option id="superFertilizer"; value="dF9nZXRfbWluZV93b29kZW5DaGVzdA==">سماد خارق </option>
+                        <option id="OrganicAquaticFertilizer"; value="dF93YXRlcl9yYW5jaF9sZXY=">سماد مائي </option>
+                        <option id="BingoGoldenBall"; value="dF9iaW5nbw=="> Bingo </option>
+                        <option id="ancient_coins"; value="dF9maWZ0aF9yYW5jaF91bmxvY2s=">حفريات نوع 1</option>
+                        <option id="ancient_coins"; value="dF9maWZ0aF9yYW5jaF9hbmltYWxfbGV2ZWxfdXA=">حفريات نوع 2</option>
+                        <option id="ancient_coins"; value="dF9maWZ0aF9yYW5jaF9hbmltYWxfc2tpbGxfbGV2ZWxfdXA=">حفريات نوع 3</option>
+                        <option id="ancient_coins"; value="dF9maWZ0aF9yYW5jaF9sZXZlbF91cA==">حفريات نوع 4</option>
+                        <option id="ancient_coins"; value="dF9maWZ0aF9yYW5jaF9iaXJ0aF9iYWJ5">حفريات نوع 5</option>
+                    </select>
+                    <br>
+                    <input onclick="get_link();" id="s_b" class="send_" value="اصنع رابط" type="button">
+                </div>
+                <br>
+                <div class="send_s" style="margin-top: 0px;margin-bottom: -15px;">
+                    <p class="s_rt" id="result"></p>
+                </div>
+            
+            </div>
+        </div>

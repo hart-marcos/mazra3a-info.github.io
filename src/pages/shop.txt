@@ -1,0 +1,28 @@
+<br><br>
+<!-- <img src="Images/2.png" alt="" class="logo" />        -->
+<div class="topnav">
+    <a onclick="get_items('trees')" id="trees"><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/apple_tree.png" alt="" class="img" />  الاشجار</a>
+    <a onclick="get_items('seeds')" id="seeds"><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/clover.png" alt="" class="img" /> بذور</a>
+    <a onclick="get_items('animals')" id="animals"><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/HolsteinCow.png" alt="" class="img" /> حيوانات</a>
+    <a onclick="get_items('gear')" id="gear"> <img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/cheese_machine.png" alt="" class="img" /> الالات</a>
+    <a onclick="get_items('buildings')" id="buildings"><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/storehouse.png" alt="" class="img" /> الابنية</a>
+    <a onclick="get_items('decorations')" id="decorations"><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/hay_bale.png" alt="" class="img" /> ديكورات</a>
+    <a onclick="get_items('materials')" id="materials"><img src="https://ffh5.akamaized.net/static/v3/resource/assets/Module/images_75/screw.png" alt="" class="img" /> مواد </a>
+</div>
+<br>
+<div class="topnav">
+    <a class="active" onclick="get_st('r')" id="ae"> عربي  </a>
+    <a onclick="get_st('m')" id="en"> انجليزي  </a>
+    <a onclick="get_st('f')" id="fr"> فرنسي  </a>
+</div>
+<div class="content">
+    <div class="search">
+        <input type="text" value="ابحث" onkeyup="search(this.value)" onclick="this.value=''" />
+    </div>
+    <hr style="width: 400px; margin-top: 20px;">
+    <div id="demo">
+        <h2 class="txt">  اختر القسم الذي تريده       </h2>
+    </div>
+    <div id="pages" class="pages">
+    </div>
+</div>

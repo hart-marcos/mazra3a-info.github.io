@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> معلومات فاملي فارم </title>
+        <meta charset="utf-8" content=""/>
+        <link rel="stylesheet" href="css/main.css?version=2.1.21" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Allura|Josefin+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link rel="icon" href="Images/icon.png">
+        <script src="js/zlib.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <header>
+        <a onclick="get_content('home')" ><img src="Images/logo_bg.png" class="logo" /></a>
+        <div class="container">
+            <nav role="navigation" class="primary-navigation">
+                <ul>
+                    <li><a onclick="get_content(this.id)" class="active" id="home" href="#">الصفحة الرئيسية</a></li>
+                    <li><a onclick="get_content(this.id)" id="shop" href="#">المتجـــر</a></li>
+                    <li><a onclick="get_content(this.id)" id="weekly_send" href="#">الارسال السبوعي</a></li>
+                    <li><a onclick="get_content(this.id)" id="daily_feed" href="#">التفويل اليومي</a></li>
+                    <li><a onclick="get_content(this.id)" id="feed_links" href="#">صانع الروابط</a></li>
+                    <li>
+                        <a onclick="" id="other" href="#" aria-haspopup="true"> اخــرى &dtrif; </a>
+                        <ul class="dropdown" aria-label="submenu">
+                            <li><a onclick="get_content(this.id)" id="car__shop" href="#">متجر القسائم</a></li>
+                            <li><a onclick="get_content(this.id)" id="can_send" href="#">ترسل للجيران </a></li>
+                            <li><a onclick="get_content(this.id)" id="missions" href="#"> المهمات الكلاسيكية </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <br><br>
+
+            <div class="form">
+    <div class="img_">
+        <img src="Images/daily_feed.png" alt="">
+    </div>
+    <div class="input">
+        <h1> التفويل اليومي  </h1>
+        <h3> ادخل ال signed_request : </h3>
+        <input type="text" value="" id="sr_" onclick="this.value = ''" class="input_"/>
+        <br>
+        <select id="gaz" name="type" class="input_2">
+            <option value="true"> مع البنزين</option>
+            <option value="false">بدون بنزين </option>
+        </select>
+
+        <select id="version_" name="type" class="input_2">
+            <option value="us"> Family Farm</option>
+            <option value="th"> Happy Land</option>
+            <option value="fr"> Super Ferme</option>
+        </select>
+        <input id="b_send" type="button" value=" ارســـال " class="send_" onclick="feed_daily(0)">
+    </div>
+</div>
+<div id="result_" class="result overlay">
+            <img src="" id="result_img"/>
+            <a id="result_close" class="close" style="display: none" href="#">&times;</a>
+            <div id="result_txt">  </div>
+            <div id="result_pb" class="progress" >
+                <div class="progress-value"></div>
+            </div>
+            <a id="result_ok" href="#" style="display: none" class="close_2"> مــوافق </a>
+</div>
+
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2 style="text-align: center;"> التحميل🔃  </h2>
+                <a class="close" href="#">&times;</a>
+                <div class="content_p">
+                    تم التحميل بنجاح بالتوفيق 😊
+                </div>
+                <h3 style="text-align: center; color: #1fbd9e"> صل على سيدنا محمد (صل الله عليه وسلم)  </h3>
+                <a href="#" class="close_2"> مــوافق </a>
+            </div>
+        </div>
+
+        <div id="all_info" class="overlay2 info">
+        </div>
+
+        <br><br>
+        <div style="background: #222; padding: 0;position: fixed;bottom: 0; width: 100%; height: 45px;z-index: 1;">
+        <h3 style="font-size: 20px; text-align: center;font-family: 'Allura', cursive; color: #FFF;padding: 0; margin-top: 5px;">
+            by
+            <div style="font-family: 'Acme', sans-serif;color: #28D996;display: inline-block;padding: 0; margin-top: 5px; ">Elhouiti Mahmoud</div>
+        </h3>
+        </div>
+        <script src="js/javascript.js?version=1.0.14"></script>
+        <script>fetch("visitors");</script>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+<div style="text-align: center;font-family: 'Cairo', sans-serif;">
+                <h1 style="color: #111;margin-top: 75px; font-size: 65px;">موقع معلومات فاملي فارم  </h1>
+                <h4 style="color: #32CD75"> تم عمل هذا الموقع لمساعدة جميع لاعبي الفاملي فارم , سوف تجد هنا اشياء ستفيدك كثيرا </h4>
+            </div>
+            <br><br>
+            <section class="services">
+                <!--heading---------------->
+                <div class="s-heading">
+                    <h1> خدمات يقدمها الموقع</h1>
+                    <p> هذه ابرز الخدمات وسيكون هناك خدمات اخرى مستقبلا ...</p>
+                </div>
+                <!--services-box-container------------------->
+                <div class="s-box-container">
+                    <!--service-box-1---------------->
+                    <div class="s-box">
+                        <!--top-bar-------->
+                        <div class="bar"></div>
+                        <!--img---------->
+                        <div class="nbr_s">
+                            <h1> 01 </h1>
+                        </div>
+                        <!--servies-name---------->
+                        <h1>المتجـــر</h1>
+                        <!--details------>
+                        <p>سوف تجد فيه كل الاكواد المتاحة بالمتجر ( بذور اشجار حيوانات الخ) والاكواد تتجد مع اللعبة </p>
+                        <!--btn---------->
+                        <a class="s-btn" onclick="get_content('shop')" >More</a>
+                    </div>
+                    <!--service-box-1---------------->
+                    <div class="s-box">
+                        <!--top-bar-------->
+                        <div class="bar"></div>
+                        <!--img---------->
+                        <div class="nbr_s">
+                            <h1> 02 </h1>
+                        </div>
+                        <!--servies-name---------->
+                        <h1> الارسال الاسبــوعي</h1>
+                        <!--details------>
+                        <p>باستخدام ال <a  style="color: #2A8CCC; font-size: 18px;">signed_request</a> يمكنك استقبال 700 هدية اما - سماد او دلو او هدايا متنوعة</p>
+                        <!--btn---------->
+                        <a class="s-btn" onclick="get_content('weekly_send')" >More</a>
+                    </div>
+                    <!--service-box-3---------------->
+                    <div class="s-box">
+                        <!--top-bar-------->
+                        <div class="bar"></div>
+                        <!--img---------->
+                        <div class="nbr_s">
+                            <h1> 03 </h1>
+                        </div>
+                        <!--servies-name---------->
+                        <h1> التفويل اليومي </h1>
+                        <!--details------>
+                        <p> ايضا باستخدام ال <a  style="color: #2A8CCC; font-size: 18px;">signed_request</a> يمكنك استقبال هدايا يوميا (بنزين سماد دلو بينجو الخ ) على حسب النقرات </p>
+                        <!--btn---------->
+                        <a class="s-btn" onclick="get_content('daily_feed')" >More</a>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <!--heading---------------->
+                <!--services-box-container------------------->
+                <div class="s-box-container">
+                    <!--service-box-1---------------->
+                    <div class="s-box">
+                        <!--top-bar-------->
+                        <div class="bar"></div>
+                        <!--img---------->
+                        <div class="nbr_s">
+                            <h1> 04 </h1>
+                        </div>
+                        <!--servies-name---------->
+                        <h1> صنع الروابط </h1>
+                        <!--details------>
+                        <p> ايضا باستخدام ال <a  style="color: #2A8CCC; font-size: 18px;">signed_request</a> يمكن صنع روابط لمزرعتك ( من بنزين سماد دلو بينجو الخ ) كل 4 ساعات  </p>
+                        <!--btn---------->
+                        <a class="s-btn" onclick="get_content('feed_links')" >More</a>
+                    </div>
+                    <!--service-box-1---------------->
+                    <div class="s-box">
+                        <!--top-bar-------->
+                        <div class="bar"></div>
+                        <!--img---------->
+                        <div class="nbr_s">
+                            <h1> 05 </h1>
+                        </div>
+                        <!--servies-name---------->
+                        <h1> مهمات الكلاسيكية</h1>
+                        <!--details------>
+                        <p> هنا ستجد شرح لكل المهمات الكلاسيكية ( خطوات -- مكافات -- وجوائز نهائية ). </p>
+                        <!--btn---------->
+                        <a class="s-btn" onclick="get_content('missions')" >More</a>
+                    </div>
+                    <!--service-box-3---------------->
+                    <div class="s-box">
+                        <!--top-bar-------->
+                        <div class="bar"></div>
+                        <!--img---------->
+                        <div class="nbr_s">
+                            <h1> 06 </h1>
+                        </div>
+                        <!--servies-name---------->
+                        <h1>متـــجر القسائم </h1>
+                        <!--details------>
+                        <p> سوف تجد فيه كل الاكواد المتاحة بالمتجر والتي يمكن مبادلتها بقسائم  (اشجار حيوانات معدات الخ) </p>
+                        <!--btn---------->
+                        <a class="s-btn" onclick="get_content('car__shop')" >More</a>
+                    </div>
+                </div>
+            </section>
+            <input onclick="alert_f('subscribe',1)" class="all_mm txt" type="button" style="z-index: 99; top: 141px; margin-left: 40px; text-align: center;font-size: 20px; cursor: pointer;" value=" اشترك معنا " />
